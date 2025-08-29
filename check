@@ -1,0 +1,1 @@
+py -c "import spacy; import en_core_web_sm; nlp=en_core_web_sm.load(); doc=nlp('Cyberattacks are increasing in 2025.'); print('OK spaCy:', spacy.__version__); print('Pipeline:', nlp.pipe_names); print('Tokens:', [(t.text,t.lemma_,t.pos_) for t in doc])"
