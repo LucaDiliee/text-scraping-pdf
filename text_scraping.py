@@ -152,7 +152,7 @@ def main():
     parser.add_argument("--out-bigrams", default="keywords_bigrams.csv", help="CSV output bigrammi")
     args = parser.parse_args()
 
-    root = Path("6.16")
+    root = Path("news")
     
     if not root.exists():
         raise SystemExit(f"Cartella non trovata: {root}")
